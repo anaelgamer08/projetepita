@@ -9635,6 +9635,7 @@ GameObject:
   - component: {fileID: 1913100692}
   - component: {fileID: 1913100691}
   - component: {fileID: 1913100690}
+  - component: {fileID: 1913100696}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -9777,6 +9778,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1913100696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913100689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c889be3a0cf7dc4b924fcdaad886e85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MouseClick:
+    m_Name: Mouse Click
+    m_Type: 1
+    m_ExpectedControlType: Button
+    m_Id: af17b45e-cb79-47a2-a01c-0b7f86678159
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 4b3b541b-c5b8-4469-9683-f1043399cc1c
+      m_Path: <Mouse>/leftButton
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Mouse Click
+      m_Flags: 0
+    m_Flags: 0
+  playerSpeed: 70
 --- !u!1001 &1933866072
 PrefabInstance:
   m_ObjectHideFlags: 0

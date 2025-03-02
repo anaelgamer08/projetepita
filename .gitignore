@@ -1,0 +1,54 @@
+# ========== Unity Specific ==========
+/Library/
+*/Library/*
+/Temp/
+*/Temp/*
+/Logs/
+*/Logs/*
+/obj/
+/Builds/
+*/Builds/*
+/UserSettings/
+*.pidb
+*.svd
+*.userprefs
+*.unityproj
+*.sln
+*.csproj
+*.suo
+*.tmp
+*.booproj
+
+# ========== Version Control ==========
+/.vscode/
+/.idea/
+/*.iml
+/.gitignore
+/.gitattributes
+
+# ========== OS / System Specific ==========
+.DS_Store
+Thumbs.db
+*.bak
+*.swp
+
+# ========== Unity Smart Cache (Do Not Track) ==========
+/Assets/StreamingAssets/aa/*
+/Assets/AddressableAssetsData/*/*.bin
+/Assets/AddressableAssetsData/*/*.hash
+/Assets/AddressableAssetsData/*/*.json
+
+# ========== Rider / Visual Studio ==========
+/*.sln
+/*.csproj
+/*.user
+/*.unityproj
+/*.suo
+/*.cache
+/*.preferences
+
+# ========== JetBrains / Rider ==========
+/.idea/
+/*.ipr
+/*.iws
+
